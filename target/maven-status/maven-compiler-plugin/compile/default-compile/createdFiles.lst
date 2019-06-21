@@ -1,0 +1,5 @@
+com\cequelldev\marketmanager\InvalidAmountException.class
+com\cequelldev\marketmanager\UnavailableProductException.class
+com\cequelldev\marketmanager\Main.class
+com\cequelldev\marketmanager\Stock.class
+com\cequelldev\marketmanager\Product.class
