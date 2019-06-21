@@ -5,10 +5,12 @@
  */
 package com.cequelldev.marketmanager;
 
+import java.util.List;
+
 /**
  *
  * @author Usuario
  */
-public class PaymentStrategy {
-    
+public interface IPaymenteStrategy {
+    public float salaryCalc(List<Sale> saleList);
 }

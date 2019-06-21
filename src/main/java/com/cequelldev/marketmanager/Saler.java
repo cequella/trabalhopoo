@@ -14,7 +14,7 @@ import java.util.List;
 public class Saler extends Employee {
     
     public Saler(String name) {
-        super(name, new SalerPayment());
+        super(name, new CommonPayment());
     }
     
 }

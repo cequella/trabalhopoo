@@ -11,7 +11,7 @@ import java.util.List;
  *
  * @author Usuario
  */
-public class SalerPayment implements IPaymenteCalc {
+public class CommonPayment implements IPaymenteStrategy {
     @Override
     public float salaryCalc(List<Sale> saleList) {
         float total = 1500.0f;

@@ -16,10 +16,10 @@ public class Employee {
     
     private int _mat;
     private String _name;
-    private IPaymenteCalc _payment;
+    private IPaymenteStrategy _payment;
     
     // Ctor
-    public Employee(String name, IPaymenteCalc tPayment) {
+    public Employee(String name, IPaymenteStrategy tPayment) {
         _mat = MAT+1;
         _name = name;
         _payment = tPayment;

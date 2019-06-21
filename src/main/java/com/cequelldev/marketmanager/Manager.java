@@ -14,7 +14,7 @@ import java.util.List;
 public class Manager extends Employee {
 
     public Manager(String name) {
-        super(name, new ManagerPayment());
+        super(name, new AdministrativePayment());
     }
     
 }
